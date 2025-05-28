@@ -1,0 +1,76 @@
+# ============================
+# IntelliJ IDEA
+# ============================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ project-level settings
+*.shelf/
+
+# ============================
+# Java build output
+# ============================
+out/
+bin/
+build/
+target/
+*.class
+
+# ============================
+# Maven
+# ============================
+log/
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ============================
+# Gradle
+# ============================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ============================
+# Logs
+# ============================
+*.log
+
+# ============================
+# OS-generated files
+# ============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================
+# Backup & temp files
+# ============================
+*.swp
+*.bak
+*.tmp
+*.~*
+*.orig
+
+# ============================
+# VS Code (if you switch editors)
+# ============================
+.vscode/
+
+# ============================
+# Git
+# ============================
+*.rej
+*.patch
+*.diff
+
+# ============================
+# Environment/Secrets
+# ============================
+.env
+.env.*
+*.keystore
