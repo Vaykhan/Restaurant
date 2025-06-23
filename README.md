@@ -1,83 +1,39 @@
-🍽️ Simple CLI Restaurant System (Java)
+# CLI Restaurant Ordering System
 
-Welcome to my very first Java project — a Simple Restaurant Management System that runs in the command line (CLI). This application is designed for customers to interact with a restaurant menu, place orders, and see their bill — all from the terminal.
-🚀 Features
+A simple command-line interface (CLI) application built in Java that allows customers to browse a restaurant menu, place orders, and view their order summary.
 
-    View the full restaurant menu
+## Features
+- Display a menu with food items and prices.
+- Allow customers to select items and specify quantities.
+- Calculate the total cost of the order.
+- Generate an order summary.
 
-    Select and order items
+## Prerequisites
+- Java Development Kit (JDK) 8 or higher.
+- A terminal or command prompt to run the application.
 
-    Calculate total cost
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/cli-restaurant-ordering-system.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd cli-restaurant-ordering-system
+   ```
+3. Compile the Java files:
+   ```bash
+   javac *.java
+   ```
 
-    Clear and user-friendly CLI interface
-
-    Written fully in Java using basic concepts like:
-
-        Loops
-
-        Conditionals
-
-        Arrays / Lists
-
-        Methods
-
-        Object-Oriented Programming
-
-📦 How to Run
-
-    Clone or Download the repository:
-
-git clone https://github.com/yourusername/cli-restaurant-java.git
-cd cli-restaurant-java
-
-    Compile the Java files:
-
-javac RestaurantSystem.java
-
-    Replace RestaurantSystem.java with your main class if it has a different name or multiple files.
-
-    Run the program:
-
-java RestaurantSystem
-
-    Follow the on-screen prompts to:
-
-        View the menu
-
-        Place your order
-
-        Check out your total
-
-📁 File Structure
-
-.
-├── RestaurantSystem.java    # Main class
-├── Menu.java                # Handles menu items (optional, if using OOP)
-├── Order.java               # Handles customer orders (optional)
-└── README.md                # You're reading it!
-
-📚 Concepts Practiced
-
-    Java Basics
-
-    Command-Line I/O
-
-    OOP Principles (if applicable)
-
-    Simple user interaction
-
-    Building a full program from scratch
-
-💡 Future Improvements
-
-    Admin section to add/edit menu items
-
-    Save orders to a file
-
-    Add login system
-
-    Add graphical interface with Swing or JavaFX
-
-🙌 Credits
-
-Created with ☕ and lots of learning!
+## Usage
+1. Run the application:
+   ```bash
+   java Main
+   ```
+2. Follow the on-screen prompts to:
+   - View the menu.
+   - Select items by entering their corresponding numbers.
+   - Specify quantities.
+   - Confirm or cancel the order.
+3. View the order summary with the total cost.
