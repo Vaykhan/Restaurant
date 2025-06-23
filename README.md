@@ -8,22 +8,18 @@ A simple command-line interface (CLI) application built in Java that allows cust
 - Calculate the total cost of the order.
 - Generate an order summary.
 
-## Prerequisites
-- Java Development Kit (JDK) 8 or higher.
-- A terminal or command prompt to run the application.
-
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cli-restaurant-ordering-system.git
+   git clone https://github.com/Vaykhan/Restaurant
    ```
-2. Navigate to the project directory:
+2. Navigate to the source directory:
    ```bash
-   cd cli-restaurant-ordering-system
+   cd src
    ```
 3. Compile the Java files:
    ```bash
-   javac *.java
+   javac *.java ordertypes/*.java Utils/*.java imp/*.java
    ```
 
 ## Usage
