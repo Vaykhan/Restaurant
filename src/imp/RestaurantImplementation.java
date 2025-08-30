@@ -25,7 +25,7 @@ public class RestaurantImplementation implements ImpInterface {
     @Override
     public void addItemToOrder() {
         try {
-            System.out.print("What would        you like to add to your order?: ");
+            System.out.print("What would you like to add to your order?: ");
             String userinput = Scan.GetString();
             System.out.print("How many?: ");
             int quantity = Scan.GetInt();
@@ -135,6 +135,7 @@ public class RestaurantImplementation implements ImpInterface {
         }
     }
 }
+
 
 
 
